@@ -12,6 +12,8 @@ Ps Aux Grep Nano.png
 
 background-jobs-linux.png
 <img width="1269" height="761" alt="Screenshot 2026-05-10 011520" src="https://github.com/user-attachments/assets/725706a8-d1f7-4cef-84df-3f95f014d04e" />
+ip-a-network-interfaces.pngcu
+<img width="1266" height="758" alt="Screenshot 2026-05-10 013519" src="https://github.com/user-attachments/assets/a94bcee3-9802-4cdc-8ec2-d5e20ebdcb17" />
 
 top-system-monitor.png
 <img width="1272" height="759" alt="Screenshot 2026-05-10 011706" src="https://github.com/user-attachments/assets/560ca848-65b0-4afb-ba8a-bc0526d3abd2" />
@@ -38,5 +40,4 @@ python-http-server.png
 
 <img width="1273" height="759" alt="Screenshot 2026-05-10 013247" src="https://github.com/user-attachments/assets/17209429-50d1-4d09-b6a7-984d7bb21965" />
 
-ip-a-network-interfaces.pngcu
-<img width="1266" height="758" alt="Screenshot 2026-05-10 013519" src="https://github.com/user-attachments/assets/a94bcee3-9802-4cdc-8ec2-d5e20ebdcb17" />
+
