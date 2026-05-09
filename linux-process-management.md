@@ -78,6 +78,7 @@ La pipe prende l’output di un comando e lo passa al comando successivo.
 ps aux | grep python
 ```
 Mostra solo i processi contenenti la parola python.
+<img width="1279" height="761" alt="Screenshot 2026-05-10 011130" src="https://github.com/user-attachments/assets/5c39fcbd-7bf8-4017-b408-99b85e556a8f" />
 
 Terminare processi
 kill
