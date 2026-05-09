@@ -41,6 +41,7 @@ Il laboratorio è configurato in ambiente virtualizzato.
 |---|---|
 | [kali-setup.md](./kali-setup.md) | Installazione e configurazione base di Kali Linux |
 | [linux-commands.md](./linux-commands.md) | Comandi Linux fondamentali per muoversi nel terminale |
+| [linux-process-management.md](./linux-process-management.md)| Gestione processi Linux e Bash |
 | [networking-basics.md](./networking-basics.md) | Concetti base di networking |
 | [tcp-udp.md](./tcp-udp.md) | Differenze tra TCP e UDP |
 | [http-https.md](./http-https.md) | Differenze tra HTTP e HTTPS |
