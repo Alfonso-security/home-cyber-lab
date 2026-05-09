@@ -108,6 +108,7 @@ Networking base
 ```bash
 ip a
 ```
+<img width="1266" height="758" alt="Screenshot 2026-05-10 013519" src="https://github.com/user-attachments/assets/a94bcee3-9802-4cdc-8ec2-d5e20ebdcb17" />
 Mostra le interfacce di rete e gli indirizzi IP assegnati.
 
 Utilizzo
@@ -118,6 +119,7 @@ Permette di verificare la configurazione della rete locale.
 ```bash
 ping google.com
 ```
+<img width="1282" height="804" alt="Screenshot 2026-05-10 015522" src="https://github.com/user-attachments/assets/06296854-af14-4390-9ef9-ec38f49eb9cf" />
 Verifica la connessione verso un host remoto.
 
 Utilizzo
@@ -187,7 +189,7 @@ ls -l
 ls -l
 ```
 Mostra file e directory in formato dettagliato.
-
+<img width="1278" height="767" alt="Screenshot 2026-05-10 004313" src="https://github.com/user-attachments/assets/ec7e656c-2dd1-4639-ae09-e6bfab3b61a8" />
 Esempio output
 ```
 -rwxr-xr-x
