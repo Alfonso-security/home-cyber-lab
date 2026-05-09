@@ -97,6 +97,8 @@ ss -tulnp
 p = process
 ```
 Mostra quale processo sta utilizzando la porta.
+ss-tulnp-listening-ports.png
+<img width="1268" height="751" alt="Screenshot 2026-05-10 012716" src="https://github.com/user-attachments/assets/3e7ca95e-b167-4ee8-ae9d-ab899ad3cc97" />
 
 # Esempio
 ```Bash
@@ -108,6 +110,9 @@ Significa che il processo python3 sta ascoltando sulla porta.
 ```Bash
 ss -tanp
 ```
+ss-tanp-established-connections.png
+<img width="1265" height="757" alt="Screenshot 2026-05-10 012802" src="https://github.com/user-attachments/assets/94bc8aa4-279a-43b4-b43e-f612c865baf0" />
+
 Mostra:
 
 connessioni ESTABLISHED
@@ -172,6 +177,11 @@ Verifica browser
 ```Bash
 http://127.0.0.1:8080
 ```
+python-http-server.png
+<img width="1271" height="757" alt="Screenshot 2026-05-10 013230" src="https://github.com/user-attachments/assets/2c1875cb-9186-410c-8433-26a02635d89a" />
+
+<img width="1273" height="759" alt="Screenshot 2026-05-10 013247" src="https://github.com/user-attachments/assets/17209429-50d1-4d09-b6a7-984d7bb21965" />
+
 # Concetti di cybersecurity appresi
 listening ports
 
