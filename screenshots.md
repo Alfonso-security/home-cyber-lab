@@ -7,3 +7,5 @@ chmod +x file.sh
 # <img width="1274" height="760" alt="Screenshot 2026-05-10 004906" src="https://github.com/user-attachments/assets/0f8d4df4-cd79-4f96-b18a-f48e517e01e3" />
 Ps Aux Process List
 <img width="1274" height="753" alt="Screenshot 2026-05-10 010622" src="https://github.com/user-attachments/assets/fd791288-94b3-4e1d-b173-f99aee3b6ec6" />
+Ps Aux Grep Nano.png
+<img width="1279" height="761" alt="Screenshot 2026-05-10 011130" src="https://github.com/user-attachments/assets/5c39fcbd-7bf8-4017-b408-99b85e556a8f" />
