@@ -40,7 +40,7 @@ Testare la connessione
 ping google.com
 ```
 Verifica la connettività verso un host remoto.
-
+<img width="1282" height="804" alt="Screenshot 2026-05-10 015522" src="https://github.com/user-attachments/assets/06296854-af14-4390-9ef9-ec38f49eb9cf" />
 Testare localhost
 ```Bash
 ping 127.0.0.1
