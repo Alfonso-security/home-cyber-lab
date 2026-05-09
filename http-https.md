@@ -149,10 +149,16 @@ Visualizzare solo gli header
 ```Bash
 curl -I https://google.com
 ```
+curl-http-headers.png
+<img width="1271" height="760" alt="Screenshot 2026-05-10 014009" src="https://github.com/user-attachments/assets/0b6e5fbe-1cd5-4167-b933-9bf73c3aa331" />
+
+
 Modalità verbose
 ```Bash
 curl -v https://google.com
 ```
+curl-verbose-https.png
+<img width="1267" height="761" alt="Screenshot 2026-05-10 012921" src="https://github.com/user-attachments/assets/1205df6c-df73-4928-bb67-5a6ff944bef6" />
 Mostra:
 
 DNS
