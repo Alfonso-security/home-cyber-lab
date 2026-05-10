@@ -43,12 +43,8 @@ The goal of this project is to develop hands-on cybersecurity skills through a c
 | [listening-ports.md](listening-ports.md) | Listening ports and active connections |
 | [http-https.md](http-https.md) | HTTP, HTTPS and TLS basics |
 | [nmap-basics.md](nmap-basics.md) | Nmap introduction and scans |
-| [screenshots/](screenshots/) | Practical lab screenshots |
-| [screenshots/linux/](screenshots/linux/) | Linux screenshots |
-| [screenshots/processes/](screenshots/processes/) | Process management screenshots |
-| [screenshots/networking/](screenshots/networking/) | Networking screenshots |
-| [screenshots/web/](screenshots/web/) | HTTP/HTTPS screenshots |
-| [screenshots/nmap/](screenshots/nmap/) | Nmap screenshots |
+| [screenshots.md](screenshots.md) | Practical lab screenshots |
+
 
 ---
 
@@ -61,7 +57,7 @@ chmod +x file.sh
 ls -l
 ```
 
-![Linux Permissions](screenshots/linux/chmod-execute-permissions.png)
+<img width="1274" height="760" alt="Screenshot 2026-05-10 004906" src="https://github.com/user-attachments/assets/0f8d4df4-cd79-4f96-b18a-f48e517e01e3" />
 
 ---
 
@@ -71,7 +67,7 @@ ls -l
 ss -tanp
 ```
 
-![TCP Connections](screenshots/networking/ss-tanp-established-connections.png)
+<img width="1265" height="757" alt="Screenshot 2026-05-10 012802" src="https://github.com/user-attachments/assets/94bc8aa4-279a-43b4-b43e-f612c865baf0" />
 
 ---
 
@@ -83,7 +79,7 @@ ss -u
 ss -tan
 ```
 
-![TCP and UDP Comparison](screenshots/networking/ss-tcp-udp-connections-comparison.png)
+<img width="1265" height="762" alt="Screenshot 2026-05-10 092811" src="https://github.com/user-attachments/assets/49cf76e6-002c-4866-9ac7-1f01dda58d3a" />
 
 ---
 
@@ -93,7 +89,7 @@ ss -tan
 nmap scanme.nmap.org
 ```
 
-![Nmap Scan](screenshots/nmap/nmap-open-port-results.png)
+<img width="1275" height="761" alt="Screenshot 2026-05-10 021656" src="https://github.com/user-attachments/assets/ffb5f38c-6fa0-4394-bd89-50f82175ee0b" />
 
 ---
 
@@ -103,7 +99,7 @@ nmap scanme.nmap.org
 sudo nmap -sS scanme.nmap.org
 ```
 
-![Nmap SYN Scan](screenshots/nmap/nmap-syn-stealth-scan-progress.png)
+<img width="1274" height="760" alt="Screenshot 2026-05-10 022715" src="https://github.com/user-attachments/assets/3163051a-a9d3-45c1-940d-6ecb5a15fa43" />
 
 ---
 
