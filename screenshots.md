@@ -62,3 +62,22 @@ wireshark-http-get-request-analysis.png
 
 wireshark-tls-encrypted-traffic-analysis.png
 <img width="1269" height="752" alt="Screenshot 2026-05-10 114403" src="https://github.com/user-attachments/assets/161a2273-3c80-482a-92af-480a7510aefd" />
+
+wireshark-dns-ipv4-ipv6-analysis.png
+<img width="1276" height="758" alt="Screenshot 2026-05-10 115117" src="https://github.com/user-attachments/assets/94f4129d-a273-4ab2-9fce-9961df803a5b" />
+
+wireshark-tcp-reset-and-fin-analysis.png
+<img width="1272" height="761" alt="Screenshot 2026-05-10 115733" src="https://github.com/user-attachments/assets/05c2e537-8543-4cf5-be1b-b24385d3efdf" />
+
+wireshark-icmp-ping-analysis.png
+<img width="1272" height="763" alt="Screenshot 2026-05-10 120252" src="https://github.com/user-attachments/assets/8efcc426-f393-4f87-9d99-f3d39563f03d" />
+
+tcpdump-icmp-packet-capture.png
+<img width="1275" height="770" alt="Screenshot 2026-05-10 120844" src="https://github.com/user-attachments/assets/788126ec-67f5-453a-8cb1-27609b8c43ef" />
+
+tcpdump-icmp-and-dns-filtering.png
+<img width="1273" height="764" alt="Screenshot 2026-05-10 121153" src="https://github.com/user-attachments/assets/e83d3c62-32b5-43db-83c2-e1d392da17ed" />
+
+wireshark-arp-resolution-analysis.png
+<img width="1269" height="760" alt="Screenshot 2026-05-10 122023" src="https://github.com/user-attachments/assets/8cae534d-dd57-446a-9e22-ede86345747c" />
+
