@@ -1,142 +1,139 @@
-# Home Cyber Lab 🛡️
+# 🛡️ Home Cyber Lab
 
-Repository personale creato per documentare il mio percorso pratico nello studio della cybersecurity.
+Personal cybersecurity laboratory built using VirtualBox and Kali Linux.
 
-L'obiettivo del progetto è costruire un laboratorio domestico sicuro e controllato dove esercitarmi con Linux, networking, scansione delle porte, analisi dei servizi e strumenti base di sicurezza informatica.
+This repository documents my practical learning journey in:
 
----
+- Linux fundamentals
+- Process management
+- Networking
+- TCP/UDP
+- Listening ports
+- HTTP/HTTPS
+- Nmap
+- Basic cybersecurity concepts
 
-## Obiettivo del progetto
-
-Questo laboratorio nasce per:
-
-- imparare a usare Linux in ambito cybersecurity;
-- comprendere le basi del networking;
-- analizzare porte, servizi e connessioni attive;
-- usare strumenti come Nmap in modo corretto ed etico;
-- documentare il mio percorso di apprendimento;
-- costruire un portfolio tecnico da mostrare ad aziende e recruiter.
+The goal of this project is to develop hands-on cybersecurity skills through a controlled lab environment and real command-line/network analysis practice.
 
 ---
 
-## Ambiente di laboratorio
+# 🖥️ Lab Environment
 
-Il laboratorio è configurato in ambiente virtualizzato.
-
-| Componente | Dettaglio |
+| Component | Details |
 |---|---|
 | Host OS | Windows |
-| Virtualizzazione | VirtualBox |
-| Sistema operativo VM | Kali Linux |
-| RAM VM | 4 GB |
-| CPU VM | 2 vCPU |
-| Disco VM | 40 GB |
-| Rete | NAT / ambiente controllato |
+| Virtualization | VirtualBox |
+| Guest OS | Kali Linux |
+| RAM | 4 GB |
+| CPU | 2 vCPU |
+| Network Mode | NAT |
+| Purpose | Personal cybersecurity laboratory |
 
 ---
 
-## Argomenti documentati
+# 📂 Repository Structure
 
-| File | Descrizione |
+| File / Folder | Description |
 |---|---|
-| [kali-setup.md](./kali-setup.md) | Installazione e configurazione base di Kali Linux |
-| [linux-commands.md](./linux-commands.md) | Comandi Linux fondamentali per muoversi nel terminale |
-| [linux-process-management.md](./linux-process-management.md)| Gestione processi Linux e Bash |
-| [networking-basics.md](./networking-basics.md) | Concetti base di networking |
-| [tcp-udp.md](./tcp-udp.md) | Differenze tra TCP e UDP |
-| [http-https.md](./http-https.md) | Differenze tra HTTP e HTTPS |
-| [listening-ports.md](./listening-ports.md) | Analisi delle porte in ascolto e delle connessioni attive |
-| [nmap-basics.md](./nmap-basics.md) | Utilizzo base di Nmap per scansioni autorizzate |
+| [kali-setup.md](kali-setup.md) | Kali Linux installation and VM setup |
+| [linux-commands.md](linux-commands.md) | Essential Linux commands |
+| [linux-process-management.md](linux-process-management.md) | Linux process and job management |
+| [networking-basics.md](networking-basics.md) | Networking fundamentals |
+| [tcp-udp.md](tcp-udp.md) | TCP vs UDP concepts |
+| [listening-ports.md](listening-ports.md) | Listening ports and active connections |
+| [http-https.md](http-https.md) | HTTP, HTTPS and TLS basics |
+| [nmap-basics.md](nmap-basics.md) | Nmap introduction and scans |
+| [screenshots/](screenshots/) | Practical lab screenshots |
+| [screenshots/linux/](screenshots/linux/) | Linux screenshots |
+| [screenshots/processes/](screenshots/processes/) | Process management screenshots |
+| [screenshots/networking/](screenshots/networking/) | Networking screenshots |
+| [screenshots/web/](screenshots/web/) | HTTP/HTTPS screenshots |
+| [screenshots/nmap/](screenshots/nmap/) | Nmap screenshots |
 
 ---
 
-## Competenze sviluppate
+# 📸 Screenshots
 
-Durante questo percorso sto sviluppando competenze pratiche su:
-
-- gestione base di una distribuzione Linux;
-- utilizzo della shell Bash;
-- aggiornamento e gestione dei pacchetti;
-- navigazione del file system;
-- gestione di processi e servizi;
-- concetti di IP, porte, protocolli e connessioni;
-- differenza tra TCP e UDP;
-- analisi delle porte aperte;
-- utilizzo base di Nmap;
-- lettura e interpretazione degli output da terminale;
-- documentazione tecnica in Markdown.
-
-## Esempi di comandi studiati
+## Linux Permissions
 
 ```bash
-sudo apt update && sudo apt upgrade -y
+chmod +x file.sh
+ls -l
 ```
-Aggiorna la lista dei pacchetti disponibili e installa gli aggiornamenti del sistema.
-```bash
-ip a
-```
-Mostra le interfacce di rete e gli indirizzi IP assegnati alla macchina.
-```bash
-ping google.com
-```
-Verifica la connettività verso un host remoto.
-```bash
-ss -tuln
-```
-Mostra le porte TCP e UDP in ascolto sul sistema.
+
+![Linux Permissions](screenshots/linux/chmod-execute-permissions.png)
+
+---
+
+## Active TCP Connections
+
 ```bash
 ss -tanp
 ```
-Mostra le connessioni TCP attive, il loro stato e i processi associati.
+
+![TCP Connections](screenshots/networking/ss-tanp-established-connections.png)
+
+---
+
+## TCP and UDP Connections
+
+```bash
+ss -t
+ss -u
+ss -tan
+```
+
+![TCP and UDP Comparison](screenshots/networking/ss-tcp-udp-connections-comparison.png)
+
+---
+
+## Basic Nmap Scan
+
 ```bash
 nmap scanme.nmap.org
 ```
-Esegue una scansione base su un target autorizzato.
-# Stato del progetto
-| Modulo                   | Stato            |
-| ------------------------ | ---------------- |
-| Setup Kali Linux         | ✅ Completato     |
-| Comandi Linux base       | ✅ Completato     |
-| Networking base          | ✅ Completato     |
-| TCP / UDP                | ✅ Completato     |
-| HTTP / HTTPS             | ✅ Completato     |
-| Listening ports          | ✅ Completato     |
-| Nmap base                | ✅ Completato     |
-| Wireshark                | 🔄 Da aggiungere |
-| TryHackMe labs           | 🔄 Da aggiungere |
-| Bash scripting           | 🔄 Da aggiungere |
-| Python for cybersecurity | 🔄 Da aggiungere |
 
-## Regole etiche
+![Nmap Scan](screenshots/nmap/nmap-open-port-results.png)
 
-Tutti i comandi, gli strumenti e gli esempi presenti in questo repository sono usati esclusivamente in:
+---
 
-ambienti personali;
-macchine virtuali controllate;
-piattaforme autorizzate come TryHackMe o Hack The Box;
-target pubblici espressamente autorizzati, come scanme.nmap.org.
+## SYN Stealth Scan
 
-Questo repository non ha finalità offensive.
-Lo scopo è esclusivamente formativo e professionale.
+```bash
+sudo nmap -sS scanme.nmap.org
+```
 
-## Prossimi obiettivi
+![Nmap SYN Scan](screenshots/nmap/nmap-syn-stealth-scan-progress.png)
 
-I prossimi argomenti che intendo aggiungere sono:
+---
 
-analisi del traffico con Wireshark;
-esercizi pratici su TryHackMe;
-script Bash di base;
-introduzione a Python per la cybersecurity;
-gestione utenti, gruppi e permessi Linux;
-hardening base di una macchina Linux;
-report tecnici dei laboratori svolti.
-## Profilo
+# 🚀 Skills Practiced
 
-Sono uno studente magistrale in cybersecurity e sto costruendo questo repository come portfolio pratico per documentare il mio percorso di crescita tecnica.
+- Linux command line
+- Linux permissions
+- Bash basics
+- Process management
+- TCP/UDP networking
+- Listening ports
+- HTTP/HTTPS analysis
+- Nmap scanning
+- Network enumeration
+- Basic troubleshooting
 
-Il progetto verrà aggiornato progressivamente con nuovi appunti, esercizi, comandi, screenshot e report di laboratorio.
+---
 
-## Note
+# 📚 Current Learning Roadmap
 
-Questo repository rappresenta un percorso di apprendimento continuo.
-Ogni file viene scritto con l'obiettivo di spiegare non solo il comando utilizzato, ma anche il motivo per cui viene usato e cosa significa il suo output.
+- Wireshark packet analysis
+- Advanced Nmap scans
+- Web security basics
+- Python for cybersecurity
+- TryHackMe labs
+- Linux intermediate administration
+- Log analysis
+
+---
+
+# ⚠️ Disclaimer
+
+This repository is intended for educational purposes only inside a controlled laboratory environment.
