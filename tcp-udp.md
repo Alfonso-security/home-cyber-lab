@@ -89,6 +89,8 @@ ss -tan
 | SYN_SENT    | tentativo di connessione in corso                    |
 | SYN_RECV    | SYN ricevuto, handshake non ancora completato        |
 
+<img width="1265" height="762" alt="Screenshot 2026-05-10 092811" src="https://github.com/user-attachments/assets/49cf76e6-002c-4866-9ac7-1f01dda58d3a" />
+
 ## Concetti appresi
 TCP
 
