@@ -5,15 +5,22 @@ Personal cybersecurity laboratory built using VirtualBox and Kali Linux.
 This repository documents my practical learning journey in:
 
 - Linux fundamentals
-- Process management
-- Networking
-- TCP/UDP
-- Listening ports
-- HTTP/HTTPS
-- Nmap
+- Linux process management
+- Networking fundamentals
+- TCP/UDP protocols
+- Listening ports and active connections
+- HTTP and HTTPS analysis
+- DNS analysis
+- ICMP analysis
+- ARP analysis
+- TCP handshake analysis
+- TLS/HTTPS encrypted traffic
+- Wireshark packet analysis
+- tcpdump packet capture
+- Nmap scanning
 - Basic cybersecurity concepts
 
-The goal of this project is to develop hands-on cybersecurity skills through a controlled lab environment and real command-line/network analysis practice.
+The goal of this project is to develop practical cybersecurity and networking skills through a controlled laboratory environment and real command-line/network traffic analysis.
 
 ---
 
@@ -42,9 +49,10 @@ The goal of this project is to develop hands-on cybersecurity skills through a c
 | [tcp-udp.md](tcp-udp.md) | TCP vs UDP concepts |
 | [listening-ports.md](listening-ports.md) | Listening ports and active connections |
 | [http-https.md](http-https.md) | HTTP, HTTPS and TLS basics |
+| [wireshark-basics.md](wireshark-basics.md) | Wireshark packet analysis and protocol inspection |
+| [tcpdump-basics.md](tcpdump-basics.md) | tcpdump command-line packet capture |
 | [nmap-basics.md](nmap-basics.md) | Nmap introduction and scans |
 | [screenshots.md](screenshots.md) | Practical lab screenshots |
-
 
 ---
 
@@ -103,33 +111,118 @@ sudo nmap -sS scanme.nmap.org
 
 ---
 
+## DNS Analysis with Wireshark
+
+```text
+dns
+```
+
+<img width="1268" height="762" alt="Screenshot 2026-05-10 104627" src="https://github.com/user-attachments/assets/db6cbc45-83a5-495e-95c7-a0134cfdac39" />
+
+---
+
+## TCP Handshake Analysis
+
+```text
+tcp
+```
+
+<img width="1272" height="761" alt="Screenshot 2026-05-10 115733" src="https://github.com/user-attachments/assets/05c2e537-8543-4cf5-be1b-b24385d3efdf" />
+
+---
+
+## HTTP GET Request Analysis
+
+```bash
+curl http://example.com
+```
+
+<img width="1278" height="761" alt="HTTP Analysis" src="https://github.com/user-attachments/assets/http-analysis-placeholder" />
+
+---
+
+## TLS / HTTPS Analysis
+
+```bash
+curl https://google.com
+```
+
+<img width="1278" height="761" alt="TLS Analysis" src="https://github.com/user-attachments/assets/tls-analysis-placeholder" />
+
+---
+
+## ICMP Ping Analysis
+
+```bash
+ping google.com
+```
+
+<img width="1278" height="761" alt="ICMP Analysis" src="https://github.com/user-attachments/assets/icmp-analysis-placeholder" />
+
+---
+
+## tcpdump Live Packet Capture
+
+```bash
+sudo tcpdump -i eth0
+```
+
+<img width="1275" height="770" alt="Screenshot 2026-05-10 120844" src="https://github.com/user-attachments/assets/788126ec-67f5-453a-8cb1-27609b8c43ef" />
+
+---
+
+## tcpdump Protocol Filtering
+
+```bash
+sudo tcpdump -i eth0 icmp
+sudo tcpdump -i eth0 port 53
+```
+
+<img width="1275" height="770" alt="Screenshot 2026-05-10 120844" src="https://github.com/user-attachments/assets/788126ec-67f5-453a-8cb1-27609b8c43ef" />
+
+<img width="1273" height="764" alt="Screenshot 2026-05-10 121153" src="https://github.com/user-attachments/assets/e83d3c62-32b5-43db-83c2-e1d392da17ed" />
+
+
+---
+
 # 🚀 Skills Practiced
 
 - Linux command line
-- Linux permissions
+- Linux permissions management
 - Bash basics
-- Process management
+- Linux process management
 - TCP/UDP networking
-- Listening ports
+- Listening ports analysis
+- TCP handshake analysis
 - HTTP/HTTPS analysis
+- TLS encrypted traffic analysis
+- DNS traffic analysis
+- ICMP diagnostics
+- ARP analysis
+- Wireshark filtering
+- Packet capture and inspection
+- tcpdump command-line analysis
 - Nmap scanning
-- Network enumeration
-- Basic troubleshooting
+- Network troubleshooting
+- Protocol analysis
+- Basic network security concepts
 
 ---
 
 # 📚 Current Learning Roadmap
 
-- Wireshark packet analysis
+- Advanced Wireshark analysis
 - Advanced Nmap scans
-- Web security basics
 - Python for cybersecurity
 - TryHackMe labs
 - Linux intermediate administration
 - Log analysis
+- Web security basics
+- Network monitoring
+- Packet analysis automation
 
 ---
 
 # ⚠️ Disclaimer
 
-This repository is intended for educational purposes only inside a controlled laboratory environment.
+This repository is intended for educational purposes only inside a controlled personal laboratory environment.
