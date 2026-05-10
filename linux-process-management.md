@@ -67,17 +67,20 @@ grep
 ps aux | grep nano
 ```
 Permette di filtrare l’output dei processi cercando una parola specifica.
-
 Pipe
 ```Bash
 |
 ```
+<img width="1275" height="764" alt="Screenshot 2026-05-10 012533" src="https://github.com/user-attachments/assets/60f224e4-6071-43e6-96ec-d8d7d61b3ce1" />
 La pipe prende l’output di un comando e lo passa al comando successivo.
-## Esempio
+
+Esempio
+
 ```Bash
 ps aux | grep python
 ```
 Mostra solo i processi contenenti la parola python.
+
 <img width="1279" height="761" alt="Screenshot 2026-05-10 011130" src="https://github.com/user-attachments/assets/5c39fcbd-7bf8-4017-b408-99b85e556a8f" />
 
 Terminare processi
@@ -91,6 +94,7 @@ Esempio
 ```Bash
 kill 2200
 ```
+<img width="1271" height="760" alt="Screenshot 2026-05-10 012130" src="https://github.com/user-attachments/assets/892cacbe-8288-4b13-b31d-06d102a1db69" />
 Terminazione forzata
 ```Bash
 kill -9 PID
@@ -154,6 +158,8 @@ Visualizzare processi background
 jobs
 ```
 Mostra i job attivi in background.
+background-jobs-linux.png
+<img width="1269" height="761" alt="Screenshot 2026-05-10 011520" src="https://github.com/user-attachments/assets/725706a8-d1f7-4cef-84df-3f95f014d04e" />
 
 Portare job foreground
 ```Bash
@@ -250,13 +256,13 @@ ls -l
 | r       | read        |
 | w       | write       |
 | x       | execute     |
-
+<img width="1278" height="767" alt="Screenshot 2026-05-10 004313" src="https://github.com/user-attachments/assets/ec7e656c-2dd1-4639-ae09-e6bfab3b61a8" />
 ## chmod
 ```Bash
 chmod +x script.sh
 ```
 Aggiunge il permesso execute.
-
+<img width="1274" height="760" alt="Screenshot 2026-05-10 004906" src="https://github.com/user-attachments/assets/0f8d4df4-cd79-4f96-b18a-f48e517e01e3" />
 Utenti Linux
 
 ## Utente corrente
