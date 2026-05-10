@@ -51,6 +51,9 @@ python-http-server.png
 ss-tcp-udp-connections-comparison.png
 <img width="1265" height="762" alt="Screenshot 2026-05-10 092811" src="https://github.com/user-attachments/assets/49cf76e6-002c-4866-9ac7-1f01dda58d3a" />
 
+linux-wireshark-group-configuration.png
+<img width="1275" height="759" alt="Screenshot 2026-05-10 122517" src="https://github.com/user-attachments/assets/a7c94d4c-de1a-4dc0-8247-a063ae18fc15" />
+
 wireshark-dns-query-analysis.png
 <img width="1268" height="762" alt="Screenshot 2026-05-10 104627" src="https://github.com/user-attachments/assets/db6cbc45-83a5-495e-95c7-a0134cfdac39" />
 
