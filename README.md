@@ -137,7 +137,7 @@ tcp
 curl http://example.com
 ```
 
-<img width="1278" height="761" alt="HTTP Analysis" src="https://github.com/user-attachments/assets/http-analysis-placeholder" />
+<img width="1273" height="764" alt="Screenshot 2026-05-10 111502" src="https://github.com/user-attachments/assets/36d9bbdc-289f-4035-a73d-af9d29e3bbfc" />
 
 ---
 
@@ -157,7 +157,7 @@ curl https://google.com
 ping google.com
 ```
 
-<img width="1278" height="761" alt="ICMP Analysis" src="https://github.com/user-attachments/assets/icmp-analysis-placeholder" />
+<img width="1269" height="760" alt="Screenshot 2026-05-10 122023" src="https://github.com/user-attachments/assets/8cae534d-dd57-446a-9e22-ede86345747c" />
 
 ---
 
