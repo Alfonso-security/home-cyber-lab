@@ -66,6 +66,7 @@ open → la porta è aperta e un servizio risponde
 closed → la porta è chiusa
 
 filtered → un firewall o filtro impedisce a Nmap di determinare lo stato
+<img width="1275" height="761" alt="Screenshot 2026-05-10 021656" src="https://github.com/user-attachments/assets/ffb5f38c-6fa0-4394-bd89-50f82175ee0b" />
 
 ## Concetti appresi
 
