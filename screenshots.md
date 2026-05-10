@@ -84,3 +84,12 @@ tcpdump-icmp-and-dns-filtering.png
 wireshark-arp-resolution-analysis.png
 <img width="1269" height="760" alt="Screenshot 2026-05-10 122023" src="https://github.com/user-attachments/assets/8cae534d-dd57-446a-9e22-ede86345747c" />
 
+wireshark-tcp-reset-scan-analysis.png
+<img width="1280" height="767" alt="Screenshot 2026-05-10 171204" src="https://github.com/user-attachments/assets/a604d71a-88ad-4d1c-94d4-f9293801b659" />
+
+wireshark-netcat-local-tcp-communication.png
+<img width="1281" height="762" alt="Screenshot 2026-05-10 173526" src="https://github.com/user-attachments/assets/4c89705a-286b-4cd8-baf5-f1628196ece4" />
+
+wireshark-follow-tcp-stream-analysis.png
+<img width="1270" height="763" alt="Screenshot 2026-05-10 174126" src="https://github.com/user-attachments/assets/f399778c-b990-4b5d-8fb4-205b7bebe6b6" />
+
