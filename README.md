@@ -177,9 +177,6 @@ sudo tcpdump -i eth0
 sudo tcpdump -i eth0 icmp
 sudo tcpdump -i eth0 port 53
 ```
-
-<img width="1275" height="770" alt="Screenshot 2026-05-10 120844" src="https://github.com/user-attachments/assets/788126ec-67f5-453a-8cb1-27609b8c43ef" />
-
 <img width="1273" height="764" alt="Screenshot 2026-05-10 121153" src="https://github.com/user-attachments/assets/e83d3c62-32b5-43db-83c2-e1d392da17ed" />
 
 
