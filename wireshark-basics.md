@@ -476,6 +476,182 @@ Prima del ping:
 - utilizzo filtri Wireshark
 
 ---
+# 🚨 Suspicious TCP Reset Analysis
+
+Questa analisi mostra pacchetti TCP Reset (RST) generati durante una scansione Nmap.
+
+---
+
+## Filtro utilizzato
+
+```text
+tcp.flags.reset == 1
+```
+
+---
+
+## Comando utilizzato
+
+```bash
+nmap scanme.nmap.org
+```
+
+---
+
+## Spiegazione
+
+Durante una scansione Nmap:
+- il client invia richieste SYN
+- il server può rispondere con RST
+- questo indica porte chiuse o connessioni rifiutate
+
+---
+
+## Cosa è stato osservato
+
+- TCP SYN packets
+- TCP RST packets
+- closed ports
+- scan behavior
+- abnormal connection attempts
+
+---
+
+## Concetti importanti
+
+| Flag | Significato |
+|---|---|
+| SYN | richiesta connessione |
+| ACK | conferma |
+| RST | reset connessione |
+
+RST viene spesso utilizzato per:
+- rifiutare connessioni
+- indicare porte chiuse
+- terminare sessioni TCP
+
+---
+
+## Screenshot
+
+<img width="1280" height="767" alt="Screenshot 2026-05-10 171204" src="https://github.com/user-attachments/assets/a604d71a-88ad-4d1c-94d4-f9293801b659" />
+
+# 🛰️ Local TCP Communication with Netcat
+
+Questa analisi mostra una comunicazione TCP locale effettuata tramite Netcat sulla porta 4444.
+
+---
+
+## Filtro utilizzato
+
+```text
+tcp.port == 4444
+```
+
+---
+
+## Comandi utilizzati
+
+Server:
+
+```bash
+nc -lvnp 4444
+```
+
+Client:
+
+```bash
+nc 127.0.0.1 4444
+```
+
+---
+
+## Spiegazione
+
+La prima istanza Netcat:
+- apre una porta in ascolto
+
+La seconda:
+- si connette localmente tramite loopback interface (`lo`)
+
+---
+
+## Cosa è stato osservato
+
+- TCP SYN
+- SYN ACK
+- ACK
+- PSH ACK
+- traffico dati TCP
+- connessione client/server locale
+
+---
+
+## Concetti importanti
+
+| Campo | Significato |
+|---|---|
+| SYN | richiesta connessione |
+| ACK | conferma |
+| PSH | invio dati |
+| Loopback (`lo`) | traffico localhost |
+
+---
+
+## Screenshot
+
+<img width="1281" height="762" alt="Screenshot 2026-05-10 173526" src="https://github.com/user-attachments/assets/4c89705a-286b-4cd8-baf5-f1628196ece4" />
+
+# 🔎 Follow TCP Stream Analysis
+
+Questa analisi mostra la ricostruzione completa di una comunicazione TCP tramite la funzione "Follow TCP Stream" di Wireshark.
+
+---
+
+## Funzione utilizzata
+
+```text
+Follow → TCP Stream
+```
+
+---
+
+## Obiettivo
+
+Ricostruire:
+- traffico dati
+- payload TCP
+- conversazione client/server
+
+---
+
+## Cosa è stato osservato
+
+- stream TCP completo
+- traffico Netcat
+- dati trasmessi
+- payload leggibile
+
+---
+
+## Concetti importanti
+
+Wireshark può:
+- ricostruire comunicazioni TCP
+- riordinare pacchetti
+- mostrare payload applicativo
+
+Questa funzione è molto utilizzata in:
+- digital forensics
+- SOC analysis
+- incident response
+- malware analysis
+
+---
+
+## Screenshot
+
+<img width="1270" height="763" alt="Screenshot 2026-05-10 174126" src="https://github.com/user-attachments/assets/f399778c-b990-4b5d-8fb4-205b7bebe6b6" />
 
 # ⚠️ Disclaimer
 
