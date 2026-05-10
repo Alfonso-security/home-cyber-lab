@@ -24,6 +24,15 @@ kill-process-example.png
 ps-aux-grep-nano.png
 <img width="1275" height="764" alt="Screenshot 2026-05-10 012533" src="https://github.com/user-attachments/assets/60f224e4-6071-43e6-96ec-d8d7d61b3ce1" />
 
+nmap-basic-scan.png
+<img width="1275" height="761" alt="Screenshot 2026-05-10 021656" src="https://github.com/user-attachments/assets/ffb5f38c-6fa0-4394-bd89-50f82175ee0b" />
+
+nmap-service-detection.png
+<img width="1276" height="759" alt="Screenshot 2026-05-10 021830" src="https://github.com/user-attachments/assets/b480912e-7599-453a-8b26-a118e4ad5814" />
+
+nmap-syn-scan.png
+<img width="1274" height="760" alt="Screenshot 2026-05-10 022715" src="https://github.com/user-attachments/assets/3163051a-a9d3-45c1-940d-6ecb5a15fa43" />
+
 ss-tulnp-listening-ports.png
 <img width="1268" height="751" alt="Screenshot 2026-05-10 012716" src="https://github.com/user-attachments/assets/3e7ca95e-b167-4ee8-ae9d-ab899ad3cc97" />
 
