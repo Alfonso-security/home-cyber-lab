@@ -147,7 +147,7 @@ curl http://example.com
 curl https://google.com
 ```
 
-<img width="1278" height="761" alt="TLS Analysis" src="https://github.com/user-attachments/assets/tls-analysis-placeholder" />
+<img width="1269" height="752" alt="Screenshot 2026-05-10 114403" src="https://github.com/user-attachments/assets/161a2273-3c80-482a-92af-480a7510aefd" />
 
 ---
 
