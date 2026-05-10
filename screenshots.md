@@ -54,4 +54,11 @@ ss-tcp-udp-connections-comparison.png
 wireshark-dns-query-analysis.png
 <img width="1268" height="762" alt="Screenshot 2026-05-10 104627" src="https://github.com/user-attachments/assets/db6cbc45-83a5-495e-95c7-a0134cfdac39" />
 
+wireshark-tcp-handshake.png
+<img width="1269" height="763" alt="Screenshot 2026-05-10 105605" src="https://github.com/user-attachments/assets/4874adde-4acd-4a30-ac35-d41f8a8df15c" />
 
+wireshark-http-get-request-analysis.png
+<img width="1273" height="764" alt="Screenshot 2026-05-10 111502" src="https://github.com/user-attachments/assets/36d9bbdc-289f-4035-a73d-af9d29e3bbfc" />
+
+wireshark-tls-encrypted-traffic-analysis.png
+<img width="1269" height="752" alt="Screenshot 2026-05-10 114403" src="https://github.com/user-attachments/assets/161a2273-3c80-482a-92af-480a7510aefd" />
