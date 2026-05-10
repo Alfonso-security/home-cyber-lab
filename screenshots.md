@@ -48,5 +48,9 @@ python-http-server.png
 <img width="1271" height="757" alt="Screenshot 2026-05-10 013230" src="https://github.com/user-attachments/assets/2c1875cb-9186-410c-8433-26a02635d89a" />
 
 <img width="1273" height="759" alt="Screenshot 2026-05-10 013247" src="https://github.com/user-attachments/assets/17209429-50d1-4d09-b6a7-984d7bb21965" />
+ss-tcp-udp-connections-comparison.png
+<img width="1265" height="762" alt="Screenshot 2026-05-10 092811" src="https://github.com/user-attachments/assets/49cf76e6-002c-4866-9ac7-1f01dda58d3a" />
+
+
 
 
