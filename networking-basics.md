@@ -30,7 +30,7 @@ Visualizzare le interfacce di rete
 ip a
 ```
 Mostra le interfacce di rete e gli indirizzi IP assegnati.
-
+<img width="1266" height="758" alt="Screenshot 2026-05-10 013519" src="https://github.com/user-attachments/assets/a94bcee3-9802-4cdc-8ec2-d5e20ebdcb17" />
 Visualizzare il nome della macchina
 ```Bash
 hostname
