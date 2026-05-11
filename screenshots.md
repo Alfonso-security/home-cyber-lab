@@ -102,3 +102,12 @@ wireshark-dns-query-response-analysis.png
 
 wireshark-network-conversations-analysis.png
 <img width="1275" height="761" alt="Screenshot 2026-05-11 215933" src="https://github.com/user-attachments/assets/61ed6523-6f11-4fb3-814c-e23eded32c01" />
+
+linux-listening-ports-analysis.png
+<img width="1273" height="759" alt="Screenshot 2026-05-11 223511" src="https://github.com/user-attachments/assets/aa78a61c-1177-4a7f-85dc-66f23ced5b07" />
+
+linux-lsof-network-process-analysis.png
+<img width="1273" height="757" alt="Screenshot 2026-05-11 224121" src="https://github.com/user-attachments/assets/75f741a0-fbb4-4622-96bb-b1941e07e83c" />
+
+linux-process-signal-management.png
+<img width="1273" height="762" alt="Screenshot 2026-05-11 224941" src="https://github.com/user-attachments/assets/11be06c0-4eaa-4e72-accb-96c83f9552f1" />
