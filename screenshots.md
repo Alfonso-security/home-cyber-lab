@@ -95,3 +95,5 @@ wireshark-follow-tcp-stream-analysis.png
 wireshark-udp-netcat-analysis.png
 <img width="1283" height="768" alt="Screenshot 2026-05-11 212444" src="https://github.com/user-attachments/assets/be3e6136-bee5-41e6-903a-8626dd0401ba" />
 
+wireshark-dns-query-response-analysis.png
+<img width="1273" height="754" alt="Screenshot 2026-05-11 213948" src="https://github.com/user-attachments/assets/2439c108-1ef4-4bcd-b3b3-6f7852dd4cda" />
