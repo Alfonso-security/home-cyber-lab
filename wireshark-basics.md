@@ -766,6 +766,64 @@ Durante l'analisi sono stati osservati:
 
 <img width="1273" height="754" alt="Screenshot 2026-05-11 213948" src="https://github.com/user-attachments/assets/2439c108-1ef4-4bcd-b3b3-6f7852dd4cda" />
 
+# 📊 Network Conversations Analysis
+
+Questa analisi mostra le conversazioni di rete osservate tramite Wireshark.
+
+---
+
+## Funzione utilizzata
+
+```text
+Statistics → Conversations
+```
+
+---
+
+## Obiettivo
+
+Identificare:
+- host sorgente
+- host destinazione
+- traffico totale
+- comunicazioni TCP/UDP
+
+---
+
+## Cosa è stato osservato
+
+- traffico Ethernet
+- traffico IPv4
+- traffico IPv6
+- connessioni TCP
+- traffico UDP
+
+---
+
+## Informazioni disponibili
+
+| Campo | Significato |
+|---|---|
+| Packets | numero pacchetti |
+| Bytes | quantità traffico |
+| Packets A → B | traffico inviato |
+| Packets B → A | traffico ricevuto |
+
+---
+
+## Utilizzo pratico
+
+Questa funzione è molto utilizzata in:
+- SOC analysis
+- network monitoring
+- malware analysis
+- troubleshooting
+- incident response
+
+---
+
+## Screenshot
+<img width="1275" height="761" alt="Screenshot 2026-05-11 215933" src="https://github.com/user-attachments/assets/61ed6523-6f11-4fb3-814c-e23eded32c01" />
 # ⚠️ Disclaimer
 
 Tutte le analisi sono state effettuate all’interno di un laboratorio personale controllato esclusivamente per scopi educativi.
