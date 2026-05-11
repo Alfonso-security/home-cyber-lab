@@ -653,6 +653,119 @@ Questa funzione è molto utilizzata in:
 
 <img width="1270" height="763" alt="Screenshot 2026-05-10 174126" src="https://github.com/user-attachments/assets/f399778c-b990-4b5d-8fb4-205b7bebe6b6" />
 
+
+# TCP vs UDP Comparison
+
+Durante il laboratorio sono state analizzate comunicazioni TCP e UDP tramite Netcat e Wireshark.
+
+---
+
+## TCP
+
+TCP utilizza:
+- handshake
+- ACK
+- controllo connessione
+- affidabilità
+
+Pacchetti osservati:
+- SYN
+- SYN ACK
+- ACK
+- PSH
+- FIN
+
+---
+
+## UDP
+
+UDP:
+- non utilizza handshake
+- non utilizza ACK
+- invia dati direttamente
+- è connectionless
+
+Pacchetti osservati:
+- traffico UDP diretto
+- payload immediato
+
+---
+
+## Differenze principali
+
+| TCP | UDP |
+|---|---|
+| affidabile | veloce |
+| handshake | no handshake |
+| ACK | no ACK |
+| connection-oriented | connectionless |
+| maggiore overhead | minore overhead |
+
+---
+
+## Screenshot UDP
+<img width="1283" height="768" alt="Screenshot 2026-05-11 212444" src="https://github.com/user-attachments/assets/be3e6136-bee5-41e6-903a-8626dd0401ba" />
+
+# 🌍 DNS Query and Response Analysis
+
+Questa analisi mostra richieste e risposte DNS catturate tramite Wireshark.
+
+---
+
+## Filtro utilizzato
+
+```text
+dns
+```
+
+---
+
+## Comandi utilizzati
+
+```bash
+nslookup google.com
+```
+
+```bash
+nslookup github.com
+```
+
+---
+
+## Spiegazione
+
+Il protocollo DNS:
+- traduce nomi dominio in indirizzi IP
+- permette ai client di raggiungere server Internet
+
+Durante l'analisi sono stati osservati:
+- record A (IPv4)
+- record AAAA (IPv6)
+
+---
+
+## Cosa è stato osservato
+
+- DNS query
+- DNS response
+- IPv4 resolution
+- IPv6 resolution
+
+---
+
+## Concetti importanti
+
+| Record | Significato |
+|---|---|
+| A | indirizzo IPv4 |
+| AAAA | indirizzo IPv6 |
+
+---
+
+## Screenshot
+
+<img width="1273" height="754" alt="Screenshot 2026-05-11 213948" src="https://github.com/user-attachments/assets/2439c108-1ef4-4bcd-b3b3-6f7852dd4cda" />
+
 # ⚠️ Disclaimer
 
 Tutte le analisi sono state effettuate all’interno di un laboratorio personale controllato esclusivamente per scopi educativi.
