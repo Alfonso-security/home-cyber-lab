@@ -4,7 +4,9 @@ Ping
 <img width="1282" height="804" alt="Screenshot 2026-05-10 015522" src="https://github.com/user-attachments/assets/06296854-af14-4390-9ef9-ec38f49eb9cf" />
 Chmod Execute Permissions
 chmod +x file.sh
-# <img width="1274" height="760" alt="Screenshot 2026-05-10 004906" src="https://github.com/user-attachments/assets/0f8d4df4-cd79-4f96-b18a-f48e517e01e3" />
+
+<img width="1274" height="760" alt="Screenshot 2026-05-10 004906" src="https://github.com/user-attachments/assets/0f8d4df4-cd79-4f96-b18a-f48e517e01e3" />
+
 Ps Aux Process List
 <img width="1274" height="753" alt="Screenshot 2026-05-10 010622" src="https://github.com/user-attachments/assets/fd791288-94b3-4e1d-b173-f99aee3b6ec6" />
 Ps Aux Grep Nano.png
@@ -97,3 +99,6 @@ wireshark-udp-netcat-analysis.png
 
 wireshark-dns-query-response-analysis.png
 <img width="1273" height="754" alt="Screenshot 2026-05-11 213948" src="https://github.com/user-attachments/assets/2439c108-1ef4-4bcd-b3b3-6f7852dd4cda" />
+
+wireshark-network-conversations-analysis.png
+<img width="1275" height="761" alt="Screenshot 2026-05-11 215933" src="https://github.com/user-attachments/assets/61ed6523-6f11-4fb3-814c-e23eded32c01" />
