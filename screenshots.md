@@ -92,4 +92,6 @@ wireshark-netcat-local-tcp-communication.png
 
 wireshark-follow-tcp-stream-analysis.png
 <img width="1270" height="763" alt="Screenshot 2026-05-10 174126" src="https://github.com/user-attachments/assets/f399778c-b990-4b5d-8fb4-205b7bebe6b6" />
+wireshark-udp-netcat-analysis.png
+<img width="1283" height="768" alt="Screenshot 2026-05-11 212444" src="https://github.com/user-attachments/assets/be3e6136-bee5-41e6-903a-8626dd0401ba" />
 
