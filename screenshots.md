@@ -56,6 +56,10 @@ ss-tcp-udp-connections-comparison.png
 linux-wireshark-group-configuration.png
 <img width="1275" height="759" alt="Screenshot 2026-05-10 122517" src="https://github.com/user-attachments/assets/a7c94d4c-de1a-4dc0-8247-a063ae18fc15" />
 
+python-reverse-dns-analysis.png
+<img width="1282" height="423" alt="Screenshot 2026-05-18 230301" src="https://github.com/user-attachments/assets/cd290c59-daf1-4633-a900-8e198b84930c" />
+
+
 wireshark-dns-query-analysis.png
 <img width="1268" height="762" alt="Screenshot 2026-05-10 104627" src="https://github.com/user-attachments/assets/db6cbc45-83a5-495e-95c7-a0134cfdac39" />
 
