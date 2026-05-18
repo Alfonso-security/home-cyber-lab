@@ -115,4 +115,8 @@ python-tcp-client-netcat-analysis.png
 <img width="1274" height="755" alt="Screenshot 2026-05-12 171120" src="https://github.com/user-attachments/assets/19ad5ae9-2650-4469-be33-9955e207cba1" />
 python-port-scanner-localhost-analysis.png
 <img width="1273" height="755" alt="Screenshot 2026-05-18 200404" src="https://github.com/user-attachments/assets/3ab17205-cd84-4b68-a1d6-231a8280df05" />
+python-banner-grabber-http-analysis.png
+<img width="1281" height="763" alt="Screenshot 2026-05-18 224334" src="https://github.com/user-attachments/assets/f89ca935-e2a2-446f-ad60-6f40717d875f" />
+
+
 
