@@ -347,7 +347,7 @@ Content-Length: ...
 ---
 
 # 📸 Screenshot
-
+<img width="1281" height="763" alt="Screenshot 2026-05-18 224334" src="https://github.com/user-attachments/assets/f89ca935-e2a2-446f-ad60-6f40717d875f" />
 
 
 ---
