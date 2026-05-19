@@ -369,8 +369,7 @@ Content-Type: text/html
 
 # 📸 Screenshot
 
-<img width="1254" height="767" alt="Screenshot 2026-05-19 203723" src="https://github.com/user-attachments/assets/d36f708d-7e4b-47e1-854b-444e36decab6" />
-
+<img width="1271" height="761" alt="Screenshot 2026-05-19 204711" src="https://github.com/user-attachments/assets/0684dee0-8d77-4f36-91b7-6277967393db" />
 ---
 
 # 💼 Real-World Use Cases
