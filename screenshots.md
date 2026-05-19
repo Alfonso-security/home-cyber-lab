@@ -126,8 +126,7 @@ python-multi-port-scanner-analysis.png
 <img width="1262" height="460" alt="Screenshot 2026-05-19 171117" src="https://github.com/user-attachments/assets/9a956544-5b01-44c0-aca8-a1e8b63c3f84" />
 python-safe-port-scanner-analysis.png
 <img width="1251" height="767" alt="Screenshot 2026-05-19 195800" src="https://github.com/user-attachments/assets/11a4477e-7935-41b5-a103-e0933a53785f" />
-
-
-
+python-multi-banner-grabber-analysis.png
+<img width="1254" height="767" alt="Screenshot 2026-05-19 203723" src="https://github.com/user-attachments/assets/d36f708d-7e4b-47e1-854b-444e36decab6" />
 
 
