@@ -130,9 +130,9 @@ python-multi-banner-grabber-analysis.png
 <img width="1271" height="761" alt="Screenshot 2026-05-19 204711" src="https://github.com/user-attachments/assets/0684dee0-8d77-4f36-91b7-6277967393db" />
 python-mini-vulnerability-scanner-analysis.png
 <img width="1263" height="768" alt="Screenshot 2026-05-19 214205" src="https://github.com/user-attachments/assets/955c9df9-26aa-446b-97dd-d38d832a5263" />
-python-packet-sniffer.png
+python-packet-sniffer-analysis.png
 <img width="1263" height="758" alt="Screenshot 2026-05-19 221137" src="https://github.com/user-attachments/assets/2deb14e8-2b0a-4a6f-a29e-1cbafbafbeea" />
-packet-parser.png
+python-real-network-packet-analysis.png
 <img width="1271" height="764" alt="Screenshot 2026-05-19 221946" src="https://github.com/user-attachments/assets/03407a7b-238f-4d91-9fa5-db817421e556" />
 
 
