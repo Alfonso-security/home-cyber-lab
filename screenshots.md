@@ -128,6 +128,10 @@ python-safe-port-scanner-analysis.png
 <img width="1251" height="767" alt="Screenshot 2026-05-19 195800" src="https://github.com/user-attachments/assets/11a4477e-7935-41b5-a103-e0933a53785f" />
 python-multi-banner-grabber-analysis.png
 <img width="1271" height="761" alt="Screenshot 2026-05-19 204711" src="https://github.com/user-attachments/assets/0684dee0-8d77-4f36-91b7-6277967393db" />
+python-mini-vulnerability-scanner-analysis.png
+<img width="1263" height="768" alt="Screenshot 2026-05-19 214205" src="https://github.com/user-attachments/assets/955c9df9-26aa-446b-97dd-d38d832a5263" />
+python-packet-sniffer.png
+<img width="1263" height="758" alt="Screenshot 2026-05-19 221137" src="https://github.com/user-attachments/assets/2deb14e8-2b0a-4a6f-a29e-1cbafbafbeea" />
 
 
 
