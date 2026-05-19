@@ -369,7 +369,7 @@ Content-Type: text/html
 
 # 📸 Screenshot
 
-<img width="1281" height="763" alt="Python Multi Banner Grabber" src="PASTE_YOUR_GITHUB_IMAGE_URL_HERE" />
+<img width="1254" height="767" alt="Screenshot 2026-05-19 203723" src="https://github.com/user-attachments/assets/d36f708d-7e4b-47e1-854b-444e36decab6" />
 
 ---
 
