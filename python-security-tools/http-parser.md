@@ -398,7 +398,7 @@ HTTPS = encrypted conversation
 
 # 📸 Screenshot
 
-<img width="1279" height="760" alt="Python HTTP Traffic Analysis" src="PASTE_YOUR_GITHUB_IMAGE_URL_HERE" />
+| Python Http Traffic Analysis | [Open](https://github.com/user-attachments/assets/05705596-edda-4fcd-bd48-1164b99a1d28) |
 
 ---
 
