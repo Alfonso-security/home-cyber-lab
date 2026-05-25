@@ -85,3 +85,5 @@ This file organizes the lab screenshots by topic. The images are stored as GitHu
 | Mini vulnerability scanner analysis | [Open](https://github.com/user-attachments/assets/955c9df9-26aa-446b-97dd-d38d832a5263) |
 | Packet sniffer analysis | [Open](https://github.com/user-attachments/assets/2deb14e8-2b0a-4a6f-a29e-1cbafbafbeea) |
 | Real network packet analysis | [Open](https://github.com/user-attachments/assets/03407a7b-238f-4d91-9fa5-db817421e556) |
+| Python Tcp Packet Analysis | [Open](https://github.com/user-attachments/assets/d8dfb3bb-c0e1-410d-ae97-5514432a0838) |
+
