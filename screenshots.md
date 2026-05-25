@@ -86,4 +86,4 @@ This file organizes the lab screenshots by topic. The images are stored as GitHu
 | Packet sniffer analysis | [Open](https://github.com/user-attachments/assets/2deb14e8-2b0a-4a6f-a29e-1cbafbafbeea) |
 | Real network packet analysis | [Open](https://github.com/user-attachments/assets/03407a7b-238f-4d91-9fa5-db817421e556) |
 | Python Tcp Packet Analysis | [Open](https://github.com/user-attachments/assets/d8dfb3bb-c0e1-410d-ae97-5514432a0838) |
-
+| Python UDP DNS Traffic Analysis | [Open](https://github.com/user-attachments/assets/d2e0936b-8f7a-4348-aba8-589bcc976f5e) |
