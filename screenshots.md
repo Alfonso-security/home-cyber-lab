@@ -88,3 +88,4 @@ This file organizes the lab screenshots by topic. The images are stored as GitHu
 | Python Tcp Packet Analysis | [Open](https://github.com/user-attachments/assets/d8dfb3bb-c0e1-410d-ae97-5514432a0838) |
 | Python UDP DNS Traffic Analysis | [Open](https://github.com/user-attachments/assets/d2e0936b-8f7a-4348-aba8-589bcc976f5e) |
 | Python Real Icmp Ping Analysis | [Open](https://github.com/user-attachments/assets/c672759c-db21-4b14-bad5-7592c18f07cb) |
+| Python Http Traffic Analysis | [Open](https://github.com/user-attachments/assets/05705596-edda-4fcd-bd48-1164b99a1d28) |
